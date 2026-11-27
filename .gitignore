@@ -1,8 +1,3 @@
-# OS & Editor files
+node_modules/
 .DS_Store
-Thumbs.db
-desktop.ini
-*.tmp
 *.log
-.vscode/
-.idea/
