@@ -1,0 +1,36 @@
+/* Print Stylesheet — Renders Official B2G Makro PDF Report Cleanly */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+  .ambient-bg,
+  .top-nav,
+  .app-main,
+  .mobile-dock,
+  .cart-drawer,
+  .drawer-backdrop,
+  .toast-container,
+  .no-print {
+    display: none !important;
+  }
+  .modal-backdrop {
+    position: static !important;
+    background: #ffffff !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+  }
+  .modal-dialog {
+    max-width: 100% !important;
+    max-height: none !important;
+    background: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  .pdf-paper {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 12px !important;
+  }
+}
